@@ -1,0 +1,157 @@
+*{
+    font-family: "Roboto", "Arial";
+}
+
+#profile-picture{
+    border-radius: 50%;
+    align-self: center;
+}
+
+hr{
+    margin:5px;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+body{
+    background-color: rgb(26, 27, 30);
+    margin: 0;
+}
+
+#download{
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    background-color: #3ea6ff;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    color: black
+}
+
+#content{
+    padding: 10px;
+}
+
+#menu{
+    background-color: rgb(20,21,23);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#menu > #menu-center{
+    display:flex;
+    
+}
+
+#menu > #menu-center > h1{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    align-self: center;
+}
+
+#menu > #menu-bottom > nav{
+    margin-left: 65px;
+}
+
+.button{
+    color: black;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #3ea6ff;
+    padding: 7px;
+    border-radius: 5PX;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#menu > #menu-bottom > nav a{
+    color: white;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: rgb(38, 39, 42);
+    padding: 4px;
+    border-radius: 4%;
+    text-decoration: none;
+}
+
+#fotos{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#fotos > img{
+    border-radius: 5%;
+    height: 400px;
+}
+
+.galery{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.certificado-items img{
+    width: 280px;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: rgb(139, 139, 139);
+    border-width: 8px;
+    border-style: solid;
+}
+
+.galery p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.galery-items img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:600px)
+{
+    #menu > #menu-bottom > nav a{
+        color: blue;
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: rgb(38, 39, 42);
+        padding: 4px;
+        border-radius: 4%;
+        text-decoration: none;
+    }
+}
